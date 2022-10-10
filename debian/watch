@@ -1,0 +1,5 @@
+version=4
+
+opts="filenamemangle=s%(?:.*?)?v?(\d[\d.]*)\.tar\.gz%s2argv-execs-$1.tar.gz%" \
+   https://github.com/virtualsquare/s2argv-execs/tags \
+   (?:.*?/)?v?(\d[\d.]*)\.tar\.gz

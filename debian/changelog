@@ -1,0 +1,37 @@
+libexecs (1.3-1) unstable; urgency=medium
+
+  [ Renzo Davoli ]
+  * new tag 1.3
+  * use cmake instead of autotools
+  * move maintenance within the Virtualsquare team
+  * add watch file
+  * bump debhelper compat level to 13
+
+  [ Mattia Rizzolo ]
+  * Mark all packages as Multi-Arch:same (from the m-a hinter).
+
+  [ Andrea Capriotti ]
+  * d/control: Bump Standard version to 4.5.1
+
+ -- Andrea Capriotti <capriott@debian.org>  Mon, 18 Jan 2021 19:41:36 +0100
+
+libexecs (1.2-1) unstable; urgency=medium
+
+  * new tag 1.2.
+  * fix management of debian packaging on git
+
+ -- Renzo Davoli <renzo@cs.unibo.it>  Sat, 05 Jan 2019 14:43:54 +0100
+
+libexecs (1.1-1) unstable; urgency=medium
+
+  * New upstream release. (Closes: #873675)
+  * Update Standards-Version to 4.0.0.
+  * Add missing dependency in libexecs-dev. (Closes: #875421)
+
+ -- Giulia Cantini <giuliacantini3@gmail.com>  Sat, 14 Oct 2017 18:00:04 +0200
+
+libexecs (1.0-1) unstable; urgency=low
+
+  * Initial release. (Closes: #859737)
+
+ -- Giulia Cantini <giuliacantini3@gmail.com>  Mon, 13 Mar 2017 17:00:52 +0100
